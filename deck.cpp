@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 			default:
 				nC = '0' + c.n;
 		}
-		cout << '[' << nC << '\t' << c.suit << ']' << endl;
+		cout << '[' << nC << ' ' << c.suit << ']' << endl;
 	};
 
 	shuffle(deck.begin(), deck.end(), eng);
