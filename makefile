@@ -1,5 +1,10 @@
+CC = g++
+CFLAGS = -g -Wall -std=c++14 -D_XOPEN_SOURCE=700
+
+RM = rm -rf
+
 all:
-	g++ -o deck deck.cpp -Wall -g -std=c++14
+	$(CC) -o deck deck.cpp $(CFLAGS)
 
 clean:
-	rm deck
+	-$(RM) deck
