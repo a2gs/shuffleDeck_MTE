@@ -3,7 +3,7 @@
  *
  * Shuffle a deck with Mersenne Twister Engine
  *
- * Public Domain
+ * MIT License
  *
  */
 
